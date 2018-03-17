@@ -1,0 +1,23 @@
+{
+  "name": "bcis",
+  "version": "1.0.2",
+  "description": "This is a javascript implementation of the Bidirectionl Conditional Insertion Sort algorithm published by Future Computer Systems Volume 71, June 2017, Pages 102-112. Read about it here: https://www.sciencedirect.com/science/article/pii/S0167739X17301711?via%3Dihub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bidirectional",
+    "conditional",
+    "insertion",
+    "sort",
+    "algorithm"
+  ],
+  "author": "Chrisian Matsoukis",
+  "license": "ISC",
+  "readme": "README.md",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
