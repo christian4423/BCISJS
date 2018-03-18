@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        BCIS Test
+    </title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Bidirectionl Conditional Insertion Sort</h1>
+            </div>
+            <div class="col-12">
+                <label for="max_num">Length of array</label>
+                <input type="number" placeholder="100" value="100" maxlength="50000" id="max_num" class="form-control" name="max_num" />
+                <br />
+                <button class="btn btn-primary" style="float:right;" onClick="RunTest()">Test</button>
+            </div>
+        </div>
+        <div id="output" class="row">
+            <div class="col-6">
+                <h3>Time</h3>
+                <p id="time"></p>
+                <hr />
+            </div>
+            <div class="col-6">
+                <h3>Valid</h3>
+                <p id="valid"></p>
+                <hr />
+            </div>
+            <div class="col-12">
+                <h3>Original</h3>
+                <p id="orig"></p>
+                <hr />
+            </div>
+            <div class="col-12">
+                <h3>Sorted</h3>
+                <p id="sorted"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/main.js"></script>
+</body>
+
+</html>
